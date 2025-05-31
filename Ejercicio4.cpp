@@ -1,8 +1,11 @@
+/*4: Se necesita un programa que solicite los N gastos realizados en un viaje. El programa
+consultará si desea continuar ingresando gastos, y mostrara al final la suma de los N
+gastos.*/
 #include <iostream>
 using namespace std;
 int main(){
-	float respuesta, gasto, totalgastado;
-	totalgastado=0;
+	double respuesta, gasto, totalgastado;
+	totalgastado=0; //se inicializa un acumulador para acumular los gastos
 	cout<<"Ingrese el primer gasto que realizo: "<<endl;
 	cin>>gasto;
 	totalgastado=totalgastado+gasto;
