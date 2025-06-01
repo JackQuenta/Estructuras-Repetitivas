@@ -1,11 +1,16 @@
+/*5: Un profesor necesita un programa que solicite las notas de N estudiantes del curso ha
+dictado en la universidad nacional Jorge Basadre Grohmann. El programa consultará si
+desea continuar ingresando notas, y mostrará al final la cantidad de aprobados y
+desaprobados y el promedio del salón*/
 #include <iostream>
 using namespace std;
 int main(){
-	double respuesta, notas, suma, aprobados, desaprobados, promedio;
-	promedio=0;
-	suma=0;
-	desaprobados=0;
-	aprobados=0;
+	double notas, suma, promedio;
+	int aprobados, desaprobados, respuesta;
+	promedio=0; 
+	suma=0; //acumulador de notas
+	desaprobados=0; //acumulador de desaprobados
+	aprobados=0;//acumulador de aprobados
 	cout<<"Ingrese la nota del estudiante: "<<endl;
 	cin>>notas;
 	suma=suma+notas;
